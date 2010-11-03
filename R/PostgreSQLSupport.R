@@ -766,7 +766,7 @@ postgresqlDataType <- function(obj, ...) {
 }
 
 postgresqlQuoteId <- function(identifier){
-    ret <- paste('"', gsub('"','""',identifier), '"', sep="")
+    ret <- paste('"', gsub('\\.','"."',gsub('"','""',identifier)), '"', sep="")
     ret
 }
 
