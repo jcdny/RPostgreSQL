@@ -1,0 +1,8 @@
+*.o
+*.so
+*~
+TAGS
+Makevars
+config.log
+config.status
+
