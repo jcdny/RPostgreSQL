@@ -3,7 +3,7 @@
  */
 
 #include "RS-PostgreSQL.h"
-#define COPY_IN_BUFSIZE 8192
+#define COPY_IN_BUFSIZE 262144
 
 /* adapter for PQputCopyData and PQputCopyEnd 
    which is used in conjunction with COPY table from STDIN */
